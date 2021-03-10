@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:prev="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CreateIndividualQuotationFull>
+         <!--Optional:-->
+         <tem:request>
+            <prev:Dependents>
+            <arr:dateTime>2010-02-10T00:00:00</arr:dateTime>
+            </prev:Dependents>
+            <prev:GrossProfit>10001</prev:GrossProfit>
+            <prev:Holder>
+               <prev:BirthDate>1939-09-29T00:00:00</prev:BirthDate>
+               <prev:DocumentNumber>5934555</prev:DocumentNumber>
+               <prev:DocumentType>1</prev:DocumentType>
+               <prev:FirstName>MIGUEL CESAR</prev:FirstName>
+               <prev:LastName>GIECO</prev:LastName>
+               <prev:TributaryCode>23059345559</prev:TributaryCode>
+               <prev:Email>miguelgieco@kinexo.com</prev:Email>
+               <prev:Telephone>
+                  <prev:AreaCode>343</prev:AreaCode>
+                  <prev:PhoneNumber>156201201</prev:PhoneNumber>
+               </prev:Telephone>
+            </prev:Holder>
+            <prev:LocalityID>3100</prev:LocalityID>
+            <prev:Obligatory>true</prev:Obligatory>
+            <prev:ProducerID>211360</prev:ProducerID>
+            <prev:Observations>Tiene 2 hijos y 1 familiar a cargo</prev:Observations>
+            <prev:Sons>2</prev:Sons>
+            <prev:Spouse>
+               <prev:BirthDate>1941-01-18T00:00:00</prev:BirthDate>
+               <prev:DocumentNumber>3956861</prev:DocumentNumber>
+               <prev:DocumentType>5</prev:DocumentType>
+               <prev:FirstName>MARIA TERESITA</prev:FirstName>
+               <prev:LastName>BIANCHINI</prev:LastName>
+               <prev:TributaryCode>27039568611</prev:TributaryCode>
+            </prev:Spouse>
+            <prev:SpouseGrossProfit>20000</prev:SpouseGrossProfit>
+            <prev:UnifiesContributions>true</prev:UnifiesContributions>
+         </tem:request>
+      </tem:CreateIndividualQuotationFull>
+   </soapenv:Body>
+</soapenv:Envelope>

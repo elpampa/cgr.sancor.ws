@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:prev="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetQuotationPlansPricesReportFull>
+         <!--Optional:-->
+         <tem:request>
+            <!--Optional:-->
+            <prev:IsHealthPromoter>false</prev:IsHealthPromoter>
+            <!--Optional:-->
+            <prev:IsIndividual>true</prev:IsIndividual>
+            <!--Optional:-->
+            <prev:LocalityId>3100</prev:LocalityId>
+         </tem:request>
+      </tem:GetQuotationPlansPricesReportFull>
+   </soapenv:Body>
+</soapenv:Envelope>

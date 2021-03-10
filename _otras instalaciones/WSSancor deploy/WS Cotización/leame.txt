@@ -1,0 +1,2 @@
+WSSancor.v3.0.Cotizador.y.EstadoCuenta funcionan los 2 web services de cotizador y estado de cuenta. (NO funciona el metodo cotizador dentro de SQL).
+WSSancor.v3.0.Solo.Cotizador.SQL funciona el método de cotizador y también dentro de SQL (tiene excluida la referencia ServiceModel porque da un error al intentar registrarla en SQL).

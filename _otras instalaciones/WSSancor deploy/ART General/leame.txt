@@ -1,0 +1,9 @@
+En la imagen donde dice <!-- PRE --> 
+
+https://external-pre-ws.gruposancorseguros.com/
+
+cambiar por 
+
+https://clientintegration-pro-ws.gruposancorseguros.com
+
+Actualizar los certificados.

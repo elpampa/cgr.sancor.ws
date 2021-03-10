@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="QuotationService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" />
+      <xs:element name="CreateIndividualQuotation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q1:CreateIndividualQuotationRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateIndividualQuotationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="CreateIndividualQuotationResult" nillable="true" type="q2:CreateIndividualQuotationResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateIndividualQuotationFull">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q3:CreateIndividualQuotationFullRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateIndividualQuotationFullResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="CreateIndividualQuotationFullResult" nillable="true" type="q4:CreateIndividualQuotationFullResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateCorporateQuotation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q5:CreateCorporateQuotationRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateCorporateQuotationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="CreateCorporateQuotationResult" nillable="true" type="q6:CreateCorporateQuotationResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateCorporateQuotationFull">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q7:CreateCorporateQuotationFullRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateCorporateQuotationFullResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="CreateCorporateQuotationFullResult" nillable="true" type="q8:CreateCorporateQuotationFullResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCorporateQuotationByID">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q9:GetCorporateQuotationByIDRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCorporateQuotationByIDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetCorporateQuotationByIDResult" nillable="true" type="q10:GetCorporateQuotationByIDResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetIndividualQuotationByID">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q11:GetIndividualQuotationByIDRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetIndividualQuotationByIDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetIndividualQuotationByIDResult" nillable="true" type="q12:GetIndividualQuotationByIDResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSelectedPlans">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q13:SaveSelectedPlansRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSelectedPlansResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="SaveSelectedPlansResult" nillable="true" type="q14:SaveSelectedPlansResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSelectedPlansFull">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q15:SaveSelectedPlansFullRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSelectedPlansFullResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="SaveSelectedPlansFullResult" nillable="true" type="q16:SaveSelectedPlansFullResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPersonQuotations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q17:GetPersonQuotationsRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPersonQuotationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetPersonQuotationsResult" nillable="true" type="q18:GetPersonQuotationsResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationReport">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q19:GetQuotationReportRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationReportResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetQuotationReportResult" nillable="true" type="q20:GetQuotationReportResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationPlansPricesReport">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q21:GetQuotationPlansPricesReportRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationPlansPricesReportResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetQuotationPlansPricesReportResult" nillable="true" type="q22:GetQuotationPlansPricesReportResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationPlansPricesReportFull">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q23:GetQuotationPlansPricesReportFullRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationPlansPricesReportFullResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetQuotationPlansPricesReportFullResult" nillable="true" type="q24:GetQuotationPlansPricesReportFullResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationsControlReportBetweenDates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q25:GetQuotationsControlReportBetweenDatesRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuotationsControlReportBetweenDatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetQuotationsControlReportBetweenDatesResult" nillable="true" type="q26:GetQuotationsControlReportBetweenDatesResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ProcessCorporateFile">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q27:ProcessCorporateFileRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ProcessCorporateFileResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="ProcessCorporateFileResult" nillable="true" type="q28:ProcessCorporateFileResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SearchLegalPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q29:SearchLegalPersonRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SearchLegalPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="SearchLegalPersonResult" nillable="true" type="q30:SearchLegalPersonResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNaturalPersons">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q31:GetNaturalPersonsRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNaturalPersonsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetNaturalPersonsResult" nillable="true" type="q32:GetNaturalPersonsResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNaturalPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="request" nillable="true" type="q33:GetNaturalPersonRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNaturalPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" minOccurs="0" name="GetNaturalPersonResult" nillable="true" type="q34:GetNaturalPersonResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="anyType" nillable="true" type="xs:anyType" />
+      <xs:element name="anyURI" nillable="true" type="xs:anyURI" />
+      <xs:element name="base64Binary" nillable="true" type="xs:base64Binary" />
+      <xs:element name="boolean" nillable="true" type="xs:boolean" />
+      <xs:element name="byte" nillable="true" type="xs:byte" />
+      <xs:element name="dateTime" nillable="true" type="xs:dateTime" />
+      <xs:element name="decimal" nillable="true" type="xs:decimal" />
+      <xs:element name="double" nillable="true" type="xs:double" />
+      <xs:element name="float" nillable="true" type="xs:float" />
+      <xs:element name="int" nillable="true" type="xs:int" />
+      <xs:element name="long" nillable="true" type="xs:long" />
+      <xs:element name="QName" nillable="true" type="xs:QName" />
+      <xs:element name="short" nillable="true" type="xs:short" />
+      <xs:element name="string" nillable="true" type="xs:string" />
+      <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte" />
+      <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt" />
+      <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong" />
+      <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort" />
+      <xs:element name="char" nillable="true" type="tns:char" />
+      <xs:simpleType name="char">
+        <xs:restriction base="xs:int" />
+      </xs:simpleType>
+      <xs:element name="duration" nillable="true" type="tns:duration" />
+      <xs:simpleType name="duration">
+        <xs:restriction base="xs:duration">
+          <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?" />
+          <xs:minInclusive value="-P10675199DT2H48M5.4775808S" />
+          <xs:maxInclusive value="P10675199DT2H48M5.4775807S" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="guid" nillable="true" type="tns:guid" />
+      <xs:simpleType name="guid">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:attribute name="FactoryType" type="xs:QName" />
+      <xs:attribute name="Id" type="xs:ID" />
+      <xs:attribute name="Ref" type="xs:IDREF" />
+    </xs:schema>
+    <xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" />
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Person" />
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" />
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Location" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xs:complexType name="CreateIndividualQuotationRequest">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Dependents" nillable="true" type="q1:ArrayOfdateTime" />
+          <xs:element minOccurs="0" name="GrossProfit" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="HealthPromoterID" nillable="true" type="xs:short" />
+          <xs:element minOccurs="0" name="Holder" nillable="true" type="tns:Holder" />
+          <xs:element minOccurs="0" name="LocalityID" type="xs:int" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Observations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProducerID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Sons" type="xs:int" />
+          <xs:element minOccurs="0" name="Spouse" nillable="true" type="tns:Person" />
+          <xs:element minOccurs="0" name="SpouseGrossProfit" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="UnifiesContributions" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateIndividualQuotationRequest" nillable="true" type="tns:CreateIndividualQuotationRequest" />
+      <xs:complexType name="Holder">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Person">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Telephone" nillable="true" type="tns:TelephoneContact" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Holder" nillable="true" type="tns:Holder" />
+      <xs:complexType name="Person">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DocumentNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PersonID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="TributaryCode" nillable="true" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Person" nillable="true" type="tns:Person" />
+      <xs:complexType name="TelephoneContact">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AreaCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PhoneNumber" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TelephoneContact" nillable="true" type="tns:TelephoneContact" />
+      <xs:complexType name="CreateIndividualQuotationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateIndividualQuotationResponse" nillable="true" type="tns:CreateIndividualQuotationResponse" />
+      <xs:complexType name="CreateIndividualQuotationFullRequest">
+        <xs:sequence>
+          <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Dependents" nillable="true" type="q2:ArrayOfdateTime" />
+          <xs:element minOccurs="0" name="GrossProfit" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="HealthPromoterID" nillable="true" type="xs:short" />
+          <xs:element minOccurs="0" name="Holder" nillable="true" type="tns:Holder" />
+          <xs:element minOccurs="0" name="LocalityID" type="xs:int" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Observations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProducerID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Sons" type="xs:int" />
+          <xs:element minOccurs="0" name="Spouse" nillable="true" type="tns:Person" />
+          <xs:element minOccurs="0" name="SpouseGrossProfit" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="UnifiesContributions" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateIndividualQuotationFullRequest" nillable="true" type="tns:CreateIndividualQuotationFullRequest" />
+      <xs:complexType name="CreateIndividualQuotationFullResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Contribution" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Dependents" type="xs:int" />
+          <xs:element minOccurs="0" name="FamilyGroupName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Holder" nillable="true" type="tns:HolderResponse" />
+          <xs:element minOccurs="0" name="IndividualPlans" nillable="true" type="tns:ArrayOfIndividualPlan" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+          <xs:element minOccurs="0" name="Sons" type="xs:int" />
+          <xs:element minOccurs="0" name="UnifiesContributions" type="xs:boolean" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateIndividualQuotationFullResponse" nillable="true" type="tns:CreateIndividualQuotationFullResponse" />
+      <xs:complexType name="HolderResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Person">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Emails" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Telephones" nillable="true" type="tns:ArrayOfTelephoneContact" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="HolderResponse" nillable="true" type="tns:HolderResponse" />
+      <xs:complexType name="ArrayOfTelephoneContact">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TelephoneContact" nillable="true" type="tns:TelephoneContact" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTelephoneContact" nillable="true" type="tns:ArrayOfTelephoneContact" />
+      <xs:complexType name="ArrayOfIndividualPlan">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="IndividualPlan" nillable="true" type="tns:IndividualPlan" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfIndividualPlan" nillable="true" type="tns:ArrayOfIndividualPlan" />
+      <xs:complexType name="IndividualPlan">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Difference" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PlanCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="QuotaValue" type="xs:decimal" />
+          <xs:element minOccurs="0" name="QuotaValueCovered" nillable="true" type="xs:decimal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="IndividualPlan" nillable="true" type="tns:IndividualPlan" />
+      <xs:complexType name="User">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Emails" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Telephones" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="User" nillable="true" type="tns:User" />
+      <xs:complexType name="CreateCorporateQuotationRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Corporation" nillable="true" type="tns:CorporationRequest" />
+          <xs:element minOccurs="0" name="Employees" nillable="true" type="tns:ArrayOfEmployee" />
+          <xs:element minOccurs="0" name="HealthPromoterID" nillable="true" type="xs:short" />
+          <xs:element minOccurs="0" name="LocalityID" type="xs:int" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Observations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProducerID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateCorporateQuotationRequest" nillable="true" type="tns:CreateCorporateQuotationRequest" />
+      <xs:complexType name="CorporationRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Corporation">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:Contact" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CorporationRequest" nillable="true" type="tns:CorporationRequest" />
+      <xs:complexType name="Corporation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TributaryCode" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Corporation" nillable="true" type="tns:Corporation" />
+      <xs:complexType name="Contact">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OccupationID" type="xs:int" />
+          <xs:element minOccurs="0" name="Telephone" nillable="true" type="tns:TelephoneContact" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Contact" nillable="true" type="tns:Contact" />
+      <xs:complexType name="ArrayOfEmployee">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Employee" nillable="true" type="tns:Employee" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfEmployee" nillable="true" type="tns:ArrayOfEmployee" />
+      <xs:complexType name="Employee">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GrossProfit" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Married" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PlanCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Sons" type="xs:int" />
+          <xs:element minOccurs="0" name="SpouseBirthDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="SpouseGrossProfit" nillable="true" type="xs:decimal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Employee" nillable="true" type="tns:Employee" />
+      <xs:complexType name="CreateCorporateQuotationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="InvalidRows" nillable="true" type="tns:ArrayOfRowValidationError" />
+          <xs:element minOccurs="0" name="QuotationID" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateCorporateQuotationResponse" nillable="true" type="tns:CreateCorporateQuotationResponse" />
+      <xs:complexType name="ArrayOfRowValidationError">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RowValidationError" nillable="true" type="tns:RowValidationError" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfRowValidationError" nillable="true" type="tns:ArrayOfRowValidationError" />
+      <xs:complexType name="RowValidationError">
+        <xs:sequence>
+          <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="InvalidFields" nillable="true" type="q3:ArrayOfstring" />
+          <xs:element minOccurs="0" name="RowNumber" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="RowValidationError" nillable="true" type="tns:RowValidationError" />
+      <xs:complexType name="CreateCorporateQuotationFullRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Corporation" nillable="true" type="tns:CorporationRequest" />
+          <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" minOccurs="0" name="File" nillable="true" type="q4:File" />
+          <xs:element minOccurs="0" name="HealthPromoterID" nillable="true" type="xs:short" />
+          <xs:element minOccurs="0" name="LocalityID" type="xs:int" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Observations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProducerID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateCorporateQuotationFullRequest" nillable="true" type="tns:CreateCorporateQuotationFullRequest" />
+      <xs:complexType name="CreateCorporateQuotationFullResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CorporateQuotationByIDResult" nillable="true" type="tns:GetCorporateQuotationByIDResult" />
+          <xs:element minOccurs="0" name="HasErrors" type="xs:boolean" />
+          <xs:element minOccurs="0" name="InvalidRows" nillable="true" type="tns:ArrayOfRowValidationError" />
+          <xs:element minOccurs="0" name="ProcessedCorporateFile" nillable="true" type="tns:ProcessCorporateFileResult" />
+          <xs:element minOccurs="0" name="QuotationID" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CreateCorporateQuotationFullResponse" nillable="true" type="tns:CreateCorporateQuotationFullResponse" />
+      <xs:complexType name="GetCorporateQuotationByIDResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ActiveEmployees" type="xs:int" />
+          <xs:element minOccurs="0" name="CorporatePlans" nillable="true" type="tns:ArrayOfCorporatePlan" />
+          <xs:element minOccurs="0" name="Corporation" nillable="true" type="tns:CorporationResponse" />
+          <xs:element minOccurs="0" name="DifferenceToPay" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PersonsTotalNumber" type="xs:int" />
+          <xs:element minOccurs="0" name="RequestDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TotalEstimatedContributions" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="TotalPrice" type="xs:decimal" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetCorporateQuotationByIDResult" nillable="true" type="tns:GetCorporateQuotationByIDResult" />
+      <xs:complexType name="ArrayOfCorporatePlan">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="CorporatePlan" nillable="true" type="tns:CorporatePlan" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCorporatePlan" nillable="true" type="tns:ArrayOfCorporatePlan" />
+      <xs:complexType name="CorporatePlan">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BonusGranted" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="IvaAmount" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PersonsNumber" type="xs:int" />
+          <xs:element minOccurs="0" name="PlanCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="TotalPrice" type="xs:decimal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CorporatePlan" nillable="true" type="tns:CorporatePlan" />
+      <xs:complexType name="CorporationResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Corporation">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:ContactResponse" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CorporationResponse" nillable="true" type="tns:CorporationResponse" />
+      <xs:complexType name="ContactResponse">
+        <xs:sequence>
+          <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Emails" nillable="true" type="q5:ArrayOfstring" />
+          <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Person" minOccurs="0" name="Occupation" nillable="true" type="q6:Occupation" />
+          <xs:element minOccurs="0" name="Telephones" nillable="true" type="tns:ArrayOfTelephoneContact" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ContactResponse" nillable="true" type="tns:ContactResponse" />
+      <xs:complexType name="ProcessCorporateFileResult">
+        <xs:sequence>
+          <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" minOccurs="0" name="CorrectedFile" nillable="true" type="q7:File" />
+          <xs:element minOccurs="0" name="Employees" nillable="true" type="tns:ArrayOfEmployee" />
+          <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ErrorsWarnings" nillable="true" type="q8:ArrayOfstring" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ProcessCorporateFileResult" nillable="true" type="tns:ProcessCorporateFileResult" />
+      <xs:complexType name="GetCorporateQuotationByIDRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetCorporateQuotationByIDRequest" nillable="true" type="tns:GetCorporateQuotationByIDRequest" />
+      <xs:complexType name="GetCorporateQuotationByIDResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ActiveEmployees" type="xs:int" />
+          <xs:element minOccurs="0" name="CorporatePlans" nillable="true" type="tns:ArrayOfCorporatePlan" />
+          <xs:element minOccurs="0" name="Corporation" nillable="true" type="tns:CorporationResponse" />
+          <xs:element minOccurs="0" name="DifferenceToPay" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PersonsTotalNumber" type="xs:int" />
+          <xs:element minOccurs="0" name="RequestDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TotalEstimatedContributions" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="TotalPrice" type="xs:decimal" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetCorporateQuotationByIDResponse" nillable="true" type="tns:GetCorporateQuotationByIDResponse" />
+      <xs:complexType name="GetIndividualQuotationByIDRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetIndividualQuotationByIDRequest" nillable="true" type="tns:GetIndividualQuotationByIDRequest" />
+      <xs:complexType name="GetIndividualQuotationByIDResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Contribution" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Dependents" type="xs:int" />
+          <xs:element minOccurs="0" name="FamilyGroupName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Holder" nillable="true" type="tns:HolderResponse" />
+          <xs:element minOccurs="0" name="IndividualPlans" nillable="true" type="tns:ArrayOfIndividualPlan" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Sons" type="xs:int" />
+          <xs:element minOccurs="0" name="UnifiesContributions" type="xs:boolean" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetIndividualQuotationByIDResponse" nillable="true" type="tns:GetIndividualQuotationByIDResponse" />
+      <xs:complexType name="SaveSelectedPlansRequest">
+        <xs:sequence>
+          <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PlandIds" nillable="true" type="q9:ArrayOfstring" />
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SaveSelectedPlansRequest" nillable="true" type="tns:SaveSelectedPlansRequest" />
+      <xs:complexType name="SaveSelectedPlansResponse">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:element name="SaveSelectedPlansResponse" nillable="true" type="tns:SaveSelectedPlansResponse" />
+      <xs:complexType name="SaveSelectedPlansFullRequest">
+        <xs:sequence>
+          <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PlandIds" nillable="true" type="q10:ArrayOfstring" />
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SaveSelectedPlansFullRequest" nillable="true" type="tns:SaveSelectedPlansFullRequest" />
+      <xs:complexType name="SaveSelectedPlansFullResponse">
+        <xs:sequence>
+          <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" minOccurs="0" name="Quotation" nillable="true" type="q11:ReportInformation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SaveSelectedPlansFullResponse" nillable="true" type="tns:SaveSelectedPlansFullResponse" />
+      <xs:complexType name="GetPersonQuotationsRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DocumentNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="IsNatural" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PersonID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="TributaryCode" nillable="true" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetPersonQuotationsRequest" nillable="true" type="tns:GetPersonQuotationsRequest" />
+      <xs:complexType name="GetPersonQuotationsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Quotations" nillable="true" type="tns:ArrayOfQuotationResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetPersonQuotationsResponse" nillable="true" type="tns:GetPersonQuotationsResponse" />
+      <xs:complexType name="ArrayOfQuotationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuotationResponse" nillable="true" type="tns:QuotationResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuotationResponse" nillable="true" type="tns:ArrayOfQuotationResponse" />
+      <xs:complexType name="QuotationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+          <xs:element minOccurs="0" name="RequestDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="QuotationResponse" nillable="true" type="tns:QuotationResponse" />
+      <xs:complexType name="GetQuotationReportRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="QuotationID" type="xs:int" />
+          <xs:element minOccurs="0" name="ShowIntermediary" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationReportRequest" nillable="true" type="tns:GetQuotationReportRequest" />
+      <xs:complexType name="GetQuotationReportResponse">
+        <xs:sequence>
+          <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" minOccurs="0" name="Quotation" nillable="true" type="q12:ReportInformation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationReportResponse" nillable="true" type="tns:GetQuotationReportResponse" />
+      <xs:complexType name="GetQuotationPlansPricesReportRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IsHealthPromoter" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsIndividual" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LocalityId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationPlansPricesReportRequest" nillable="true" type="tns:GetQuotationPlansPricesReportRequest" />
+      <xs:complexType name="GetQuotationPlansPricesReportResponse">
+        <xs:sequence>
+          <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" minOccurs="0" name="QuotationPlansPrices" nillable="true" type="q13:ReportInformation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationPlansPricesReportResponse" nillable="true" type="tns:GetQuotationPlansPricesReportResponse" />
+      <xs:complexType name="GetQuotationPlansPricesReportFullRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IsHealthPromoter" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsIndividual" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LocalityId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationPlansPricesReportFullRequest" nillable="true" type="tns:GetQuotationPlansPricesReportFullRequest" />
+      <xs:complexType name="GetQuotationPlansPricesReportFullResponse">
+        <xs:sequence>
+          <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" minOccurs="0" name="QuotationPlansPrices" nillable="true" type="q14:ReportInformation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationPlansPricesReportFullResponse" nillable="true" type="tns:GetQuotationPlansPricesReportFullResponse" />
+      <xs:complexType name="GetQuotationsControlReportBetweenDatesRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationsControlReportBetweenDatesRequest" nillable="true" type="tns:GetQuotationsControlReportBetweenDatesRequest" />
+      <xs:complexType name="GetQuotationsControlReportBetweenDatesResponse">
+        <xs:sequence>
+          <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" minOccurs="0" name="ControlReport" nillable="true" type="q15:ReportInformation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetQuotationsControlReportBetweenDatesResponse" nillable="true" type="tns:GetQuotationsControlReportBetweenDatesResponse" />
+      <xs:complexType name="ProcessCorporateFileRequest">
+        <xs:sequence>
+          <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" minOccurs="0" name="File" nillable="true" type="q16:File" />
+          <xs:element minOccurs="0" name="Obligatory" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ProcessCorporateFileRequest" nillable="true" type="tns:ProcessCorporateFileRequest" />
+      <xs:complexType name="ProcessCorporateFileResponse">
+        <xs:sequence>
+          <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" minOccurs="0" name="CorrectedFile" nillable="true" type="q17:File" />
+          <xs:element minOccurs="0" name="Employees" nillable="true" type="tns:ArrayOfEmployee" />
+          <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ErrorsWarnings" nillable="true" type="q18:ArrayOfstring" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ProcessCorporateFileResponse" nillable="true" type="tns:ProcessCorporateFileResponse" />
+      <xs:complexType name="SearchLegalPersonRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TributaryCode" nillable="true" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SearchLegalPersonRequest" nillable="true" type="tns:SearchLegalPersonRequest" />
+      <xs:complexType name="SearchLegalPersonResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Denomination" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SearchLegalPersonResponse" nillable="true" type="tns:SearchLegalPersonResponse" />
+      <xs:complexType name="GetNaturalPersonsRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DocumentNumber" type="xs:long" />
+          <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetNaturalPersonsRequest" nillable="true" type="tns:GetNaturalPersonsRequest" />
+      <xs:complexType name="GetNaturalPersonsResponse">
+        <xs:sequence>
+          <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Person" minOccurs="0" name="NaturalPersons" nillable="true" type="q19:ArrayOfNaturalPersonResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetNaturalPersonsResponse" nillable="true" type="tns:GetNaturalPersonsResponse" />
+      <xs:complexType name="GetNaturalPersonRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="TributaryCode" nillable="true" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetNaturalPersonRequest" nillable="true" type="tns:GetNaturalPersonRequest" />
+      <xs:complexType name="GetNaturalPersonResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BUPId" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="BirthDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DocumentNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FixedPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Floor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsBupNotAvailable" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsManager" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Locality" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MaritalStatusId" nillable="true" type="xs:int" />
+          <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Location" minOccurs="0" name="MemberCity" nillable="true" type="q20:City" />
+          <xs:element minOccurs="0" name="NationalityId" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Neighborhood" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Observations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PersonID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="RelationshipId" nillable="true" type="ser:char" />
+          <xs:element minOccurs="0" name="Street" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StreetNumber" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="TributaryCodeNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="TributaryCodeType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ZipCode" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GetNaturalPersonResponse" nillable="true" type="tns:GetNaturalPersonResponse" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ArrayOfdateTime">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfdateTime" nillable="true" type="tns:ArrayOfdateTime" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ErrorFault">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ErrorFault" nillable="true" type="tns:ErrorFault" />
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:SancorSeguros/Services/Validation/2012/11" elementFormDefault="qualified" targetNamespace="urn:SancorSeguros/Services/Validation/2012/11" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ValidationFault">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Details" nillable="true" type="tns:ArrayOfValidationDetail" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ValidationFault" nillable="true" type="tns:ValidationFault" />
+      <xs:complexType name="ArrayOfValidationDetail">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ValidationDetail" nillable="true" type="tns:ValidationDetail" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfValidationDetail" nillable="true" type="tns:ArrayOfValidationDetail" />
+      <xs:complexType name="ValidationDetail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ParameterName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ValidationDetail" nillable="true" type="tns:ValidationDetail" />
+    </xs:schema>
+    <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:SancorSeguros/Services/Validation/2012/11" />
+      <xs:element xmlns:q1="urn:SancorSeguros/Services/Validation/2012/11" name="ValidationFault" nillable="true" type="q1:ValidationFault" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.File" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="File">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Extension" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FileBytes" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="File" nillable="true" type="tns:File" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Person" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Person" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="Occupation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OccupationID" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Occupation" nillable="true" type="tns:Occupation" />
+      <xs:complexType name="ArrayOfNaturalPersonResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="NaturalPersonResponse" nillable="true" type="tns:NaturalPersonResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfNaturalPersonResponse" nillable="true" type="tns:ArrayOfNaturalPersonResponse" />
+      <xs:complexType name="NaturalPersonResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BirthDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DocumentNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PersonID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="SrtCode" nillable="true" type="xs:unsignedByte" />
+          <xs:element minOccurs="0" name="TributaryCodeNumber" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="TributaryCodeType" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="NaturalPersonResponse" nillable="true" type="tns:NaturalPersonResponse" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:complexType name="ReportInformation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Encoding" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Extension" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MimeType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Report" nillable="true" type="xs:base64Binary" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="streams" nillable="true" type="q1:ArrayOfstring" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ReportInformation" nillable="true" type="tns:ReportInformation" />
+      <xs:complexType name="Parameters">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Parameters" nillable="true" type="tns:Parameters" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Location" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Location" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" />
+      <xs:complexType name="City">
+        <xs:complexContent mixed="false">
+          <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Entities" base="q1:Parameters">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CoreId" type="xs:int" />
+              <xs:element minOccurs="0" name="CountryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProvinceName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ZipCode" nillable="true" type="xs:short" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="City" nillable="true" type="tns:City" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotation_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateIndividualQuotation" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateIndividualQuotationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotation_ErrorFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" name="detail" element="q1:ErrorFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotation_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotationFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateIndividualQuotationFull" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotationFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateIndividualQuotationFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotationFull_ErrorFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" name="detail" element="q2:ErrorFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateIndividualQuotationFull_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotation_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCorporateQuotation" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCorporateQuotationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotation_ErrorFaultFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" name="detail" element="q3:ErrorFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotation_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotationFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCorporateQuotationFull" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotationFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCorporateQuotationFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotationFull_ErrorFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Faults" name="detail" element="q4:ErrorFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_CreateCorporateQuotationFull_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetCorporateQuotationByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorporateQuotationByID" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetCorporateQuotationByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorporateQuotationByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetCorporateQuotationByID_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetIndividualQuotationByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualQuotationByID" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetIndividualQuotationByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualQuotationByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetIndividualQuotationByID_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlans_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSelectedPlans" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSelectedPlansResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlans_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlansFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSelectedPlansFull" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlansFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSelectedPlansFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SaveSelectedPlansFull_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetPersonQuotations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonQuotations" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetPersonQuotations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonQuotationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetPersonQuotations_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationReport" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationReport_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationPlansPricesReport" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationPlansPricesReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReport_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReportFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationPlansPricesReportFull" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReportFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationPlansPricesReportFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationPlansPricesReportFull_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationsControlReportBetweenDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationsControlReportBetweenDates" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationsControlReportBetweenDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuotationsControlReportBetweenDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetQuotationsControlReportBetweenDates_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_ProcessCorporateFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessCorporateFile" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_ProcessCorporateFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessCorporateFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_ProcessCorporateFile_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SearchLegalPerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchLegalPerson" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SearchLegalPerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchLegalPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_SearchLegalPerson_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPersons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalPersons" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPersons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalPersonsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPersons_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalPerson" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuotationService_GetNaturalPerson_ValidationFault_FaultMessage">
+    <wsdl:part name="detail" element="ValidationFault" />
+  </wsdl:message>
+  <wsdl:portType name="IQuotationService">
+    <wsdl:operation name="CreateIndividualQuotation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotation" message="tns:IQuotationService_CreateIndividualQuotation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotationResponse" message="tns:IQuotationService_CreateIndividualQuotation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotationErrorFaultFault" name="ErrorFaultFault" message="tns:IQuotationService_CreateIndividualQuotation_ErrorFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_CreateIndividualQuotation_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateIndividualQuotationFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotationFull" message="tns:IQuotationService_CreateIndividualQuotationFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotationFullResponse" message="tns:IQuotationService_CreateIndividualQuotationFull_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IQuotationService/CreateIndividualQuotationFullErrorFaultFault" name="ErrorFaultFault" message="tns:IQuotationService_CreateIndividualQuotationFull_ErrorFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_CreateIndividualQuotationFull_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCorporateQuotation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotation" message="tns:IQuotationService_CreateCorporateQuotation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotationResponse" message="tns:IQuotationService_CreateCorporateQuotation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotationErrorFaultFault" name="ErrorFaultFault" message="tns:IQuotationService_CreateCorporateQuotation_ErrorFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_CreateCorporateQuotation_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCorporateQuotationFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotationFull" message="tns:IQuotationService_CreateCorporateQuotationFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotationFullResponse" message="tns:IQuotationService_CreateCorporateQuotationFull_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IQuotationService/CreateCorporateQuotationFullErrorFaultFault" name="ErrorFaultFault" message="tns:IQuotationService_CreateCorporateQuotationFull_ErrorFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_CreateCorporateQuotationFull_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorporateQuotationByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetCorporateQuotationByID" message="tns:IQuotationService_GetCorporateQuotationByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetCorporateQuotationByIDResponse" message="tns:IQuotationService_GetCorporateQuotationByID_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetCorporateQuotationByID_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualQuotationByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetIndividualQuotationByID" message="tns:IQuotationService_GetIndividualQuotationByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetIndividualQuotationByIDResponse" message="tns:IQuotationService_GetIndividualQuotationByID_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetIndividualQuotationByID_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSelectedPlans">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/SaveSelectedPlans" message="tns:IQuotationService_SaveSelectedPlans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/SaveSelectedPlansResponse" message="tns:IQuotationService_SaveSelectedPlans_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_SaveSelectedPlans_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSelectedPlansFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/SaveSelectedPlansFull" message="tns:IQuotationService_SaveSelectedPlansFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/SaveSelectedPlansFullResponse" message="tns:IQuotationService_SaveSelectedPlansFull_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_SaveSelectedPlansFull_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonQuotations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetPersonQuotations" message="tns:IQuotationService_GetPersonQuotations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetPersonQuotationsResponse" message="tns:IQuotationService_GetPersonQuotations_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetPersonQuotations_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationReport" message="tns:IQuotationService_GetQuotationReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationReportResponse" message="tns:IQuotationService_GetQuotationReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetQuotationReport_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationPlansPricesReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReport" message="tns:IQuotationService_GetQuotationPlansPricesReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReportResponse" message="tns:IQuotationService_GetQuotationPlansPricesReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetQuotationPlansPricesReport_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationPlansPricesReportFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReportFull" message="tns:IQuotationService_GetQuotationPlansPricesReportFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReportFullResponse" message="tns:IQuotationService_GetQuotationPlansPricesReportFull_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetQuotationPlansPricesReportFull_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationsControlReportBetweenDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationsControlReportBetweenDates" message="tns:IQuotationService_GetQuotationsControlReportBetweenDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetQuotationsControlReportBetweenDatesResponse" message="tns:IQuotationService_GetQuotationsControlReportBetweenDates_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetQuotationsControlReportBetweenDates_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessCorporateFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/ProcessCorporateFile" message="tns:IQuotationService_ProcessCorporateFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/ProcessCorporateFileResponse" message="tns:IQuotationService_ProcessCorporateFile_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_ProcessCorporateFile_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchLegalPerson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/SearchLegalPerson" message="tns:IQuotationService_SearchLegalPerson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/SearchLegalPersonResponse" message="tns:IQuotationService_SearchLegalPerson_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_SearchLegalPerson_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalPersons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetNaturalPersons" message="tns:IQuotationService_GetNaturalPersons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetNaturalPersonsResponse" message="tns:IQuotationService_GetNaturalPersons_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetNaturalPersons_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalPerson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuotationService/GetNaturalPerson" message="tns:IQuotationService_GetNaturalPerson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuotationService/GetNaturalPersonResponse" message="tns:IQuotationService_GetNaturalPerson_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:SancorSeguros/Services/Validation/2012/11/ValidationFault" name="ValidationFault" message="tns:IQuotationService_GetNaturalPerson_ValidationFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IQuotationService" type="tns:IQuotationService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateIndividualQuotation">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/CreateIndividualQuotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ErrorFaultFault">
+        <soap:fault use="literal" name="ErrorFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateIndividualQuotationFull">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/CreateIndividualQuotationFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ErrorFaultFault">
+        <soap:fault use="literal" name="ErrorFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCorporateQuotation">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/CreateCorporateQuotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ErrorFaultFault">
+        <soap:fault use="literal" name="ErrorFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCorporateQuotationFull">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/CreateCorporateQuotationFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ErrorFaultFault">
+        <soap:fault use="literal" name="ErrorFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorporateQuotationByID">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetCorporateQuotationByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualQuotationByID">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetIndividualQuotationByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSelectedPlans">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/SaveSelectedPlans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSelectedPlansFull">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/SaveSelectedPlansFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonQuotations">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetPersonQuotations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationReport">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetQuotationReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationPlansPricesReport">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationPlansPricesReportFull">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetQuotationPlansPricesReportFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationsControlReportBetweenDates">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetQuotationsControlReportBetweenDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessCorporateFile">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/ProcessCorporateFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchLegalPerson">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/SearchLegalPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalPersons">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetNaturalPersons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalPerson">
+      <soap:operation soapAction="http://tempuri.org/IQuotationService/GetNaturalPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ValidationFault">
+        <soap:fault use="literal" name="ValidationFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QuotationService">
+    <wsdl:port name="BasicHttpBinding_IQuotationService" binding="tns:BasicHttpBinding_IQuotationService">
+      <soap:address location="http://psalud-tst-ws.sancorseguros.net/Quotation/QuotationService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
