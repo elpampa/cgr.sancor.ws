@@ -1,0 +1,1401 @@
+﻿Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Restoring event log to previous state for source WSSancorService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\sancorSolution.VS2012\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\wssancorservice.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Attempt to stop service WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Attempt to stop service WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Warning: The source WSSancorService is not registered on the local machine.
+Service WSSancorService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Installing service WSSancorService...
+Creating EventLog source WSSancorService in log Application...
+Rolling back assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Restoring event log to previous state for source WSSancorService.
+Uninstalling assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Removing EventLog source WSSancorService.
+Service WSSancorService is being removed from the system...
+Service WSSancorService was successfully removed from the system.
+Installing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog
+Installing service WSSancorService...
+Service WSSancorService has been successfully installed.
+Creating EventLog source WSSancorService in log Application...
+Committing assembly 'C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.exe
+   logfile = C:\Users\Carlos\OneDrive\ConsulGroup\SancorWS\WSSancor.v2.0.Trigger.Tarifador.Cta.Cte\WSSancorService\bin\Release\WSSancorService.InstallLog

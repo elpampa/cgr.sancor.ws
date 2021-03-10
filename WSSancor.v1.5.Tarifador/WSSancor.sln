@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormSancor", "WindowsFormSancor\WindowsFormSancor.csproj", "{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSSancor", "WSSancor\WSSancor.csproj", "{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Release|.NET.ActiveCfg = Release|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8230468A-FD2C-44F3-9F6E-AF01AFDC3EDB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Release|.NET.ActiveCfg = Release|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AE1A5F45-7133-4F95-97C8-3CA7E4DD660D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

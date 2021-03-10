@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <CreateIndividualQuotationFullResponse xmlns="http://tempuri.org/">
+         <CreateIndividualQuotationFullResult xmlns:a="http://schemas.datacontract.org/2004/07/PrevencionSalud.Services.Contract.Quotation" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:Contribution>2059</a:Contribution>
+            <a:Dependents>1</a:Dependents>
+            <a:FamilyGroupName>Matrimonio + 2H</a:FamilyGroupName>
+            <a:Holder>
+               <a:BirthDate>1939-09-29T00:00:00</a:BirthDate>
+               <a:DocumentNumber>5934555</a:DocumentNumber>
+               <a:DocumentType>1</a:DocumentType>
+               <a:FirstName>MIGUEL CESAR</a:FirstName>
+               <a:LastName>GIECO</a:LastName>
+               <a:PersonID i:nil="true"/>
+               <a:TributaryCode>23059345559</a:TributaryCode>
+               <a:Emails>miguelgieco@kinexo.com</a:Emails>
+               <a:Telephones>
+                  <a:TelephoneContact>
+                     <a:AreaCode>343</a:AreaCode>
+                     <a:PhoneNumber>156201201</a:PhoneNumber>
+                  </a:TelephoneContact>
+               </a:Telephones>
+            </a:Holder>
+            <a:IndividualPlans>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>23275</a:Difference>
+                  <a:PlanCode>ACC</a:PlanCode>
+                  <a:QuotaValue>25335</a:QuotaValue>
+                  <a:QuotaValueCovered>8</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>25188</a:Difference>
+                  <a:PlanCode>A1</a:PlanCode>
+                  <a:QuotaValue>27248</a:QuotaValue>
+                  <a:QuotaValueCovered>8</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>28778</a:Difference>
+                  <a:PlanCode>A2</a:PlanCode>
+                  <a:QuotaValue>30837</a:QuotaValue>
+                  <a:QuotaValueCovered>7</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>32928</a:Difference>
+                  <a:PlanCode>A3</a:PlanCode>
+                  <a:QuotaValue>34987</a:QuotaValue>
+                  <a:QuotaValueCovered>6</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>38197</a:Difference>
+                  <a:PlanCode>A4</a:PlanCode>
+                  <a:QuotaValue>40257</a:QuotaValue>
+                  <a:QuotaValueCovered>5</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>56328</a:Difference>
+                  <a:PlanCode>A5</a:PlanCode>
+                  <a:QuotaValue>58387</a:QuotaValue>
+                  <a:QuotaValueCovered>4</a:QuotaValueCovered>
+               </a:IndividualPlan>
+               <a:IndividualPlan>
+                  <a:Color>#F84C4C</a:Color>
+                  <a:Difference>121005</a:Difference>
+                  <a:PlanCode>A6</a:PlanCode>
+                  <a:QuotaValue>123064</a:QuotaValue>
+                  <a:QuotaValueCovered>2</a:QuotaValueCovered>
+               </a:IndividualPlan>
+            </a:IndividualPlans>
+            <a:Obligatory>true</a:Obligatory>
+            <a:Sons>2</a:Sons>
+            <a:UnifiesContributions>true</a:UnifiesContributions>
+            <a:User>
+               <a:Emails>ezequiel.neiser@hotmail.com</a:Emails>
+               <a:FullName>NEISER EZEQUIEL</a:FullName>
+               <a:Telephones>(11) 1536783106 / (2929) 482319</a:Telephones>
+            </a:User>
+         </CreateIndividualQuotationFullResult>
+      </CreateIndividualQuotationFullResponse>
+   </s:Body>
+</s:Envelope>

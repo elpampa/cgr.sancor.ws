@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="TarifarPMX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cuitEmpresa" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="razonSocial" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="codActividad" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="cantTrabajadores" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="masaSalarial" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="codProvinciaRiesgo" type="s:unsignedByte" />
+            <s:element minOccurs="1" maxOccurs="1" name="codModuloRC" type="s:unsignedByte" />
+            <s:element minOccurs="1" maxOccurs="1" name="codModuloAP" type="s:unsignedByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TarifarPMXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TarifarPMXResult" type="tns:CotizacionGSS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CotizacionGSS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NroCotizacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CuitEmpresa" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="Actividad" type="tns:Actividad" />
+          <s:element minOccurs="1" maxOccurs="1" name="MasaSalarial" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantTrabajadores" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Provincia" type="tns:ProvinciaRiesgo" />
+          <s:element minOccurs="0" maxOccurs="1" name="Intermediario" type="tns:Intermediario" />
+          <s:element minOccurs="1" maxOccurs="1" name="NroLegajoAlta" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaAlta" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="NroLegajoBaja" nillable="true" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaBaja" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="NroLegajoABM" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaABM" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Productos" type="tns:ArrayOfCotizacionProductoGSS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Actividad">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodActividad" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodSemaforo" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="RequierePrevia" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ProvinciaRiesgo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodPcia" type="s:unsignedByte" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombrePcia" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Intermediario">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NroEmpsoc" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoPersona" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="NroPersona" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="nIntermed" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCotizacionProductoGSS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CotizacionProductoGSS" nillable="true" type="tns:CotizacionProductoGSS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CotizacionProductoGSS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="nBranch" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="nProduct" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductId" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="Modulo" type="tns:Modulo" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoFijo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcVariable" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Costo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Tasa" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Modulo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodModulo" type="s:unsignedByte" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescModulo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SumaAsegurada" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TarifarART">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cuitEmpresa" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="codActividad" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="cantTrabajadores" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="masaSalarial" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TarifarARTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TarifarARTResult" type="tns:Alicuota" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Alicuota">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodActividad" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantTrabajadores" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MasaSalarial" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoFijo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcVariable" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RecuperarProvincias">
+        <s:complexType />
+      </s:element>
+      <s:element name="RecuperarProvinciasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecuperarProvinciasResult" type="tns:ArrayOfProvinciaRiesgo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProvinciaRiesgo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProvinciaRiesgo" nillable="true" type="tns:ProvinciaRiesgo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RecuperarModulos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codServicio" type="s:unsignedByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecuperarModulosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecuperarModulosResult" type="tns:ArrayOfModulo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfModulo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Modulo" nillable="true" type="tns:Modulo" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TarifarPMXSoapIn">
+    <wsdl:part name="parameters" element="tns:TarifarPMX" />
+  </wsdl:message>
+  <wsdl:message name="TarifarPMXSoapOut">
+    <wsdl:part name="parameters" element="tns:TarifarPMXResponse" />
+  </wsdl:message>
+  <wsdl:message name="TarifarARTSoapIn">
+    <wsdl:part name="parameters" element="tns:TarifarART" />
+  </wsdl:message>
+  <wsdl:message name="TarifarARTSoapOut">
+    <wsdl:part name="parameters" element="tns:TarifarARTResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecuperarProvinciasSoapIn">
+    <wsdl:part name="parameters" element="tns:RecuperarProvincias" />
+  </wsdl:message>
+  <wsdl:message name="RecuperarProvinciasSoapOut">
+    <wsdl:part name="parameters" element="tns:RecuperarProvinciasResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecuperarModulosSoapIn">
+    <wsdl:part name="parameters" element="tns:RecuperarModulos" />
+  </wsdl:message>
+  <wsdl:message name="RecuperarModulosSoapOut">
+    <wsdl:part name="parameters" element="tns:RecuperarModulosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProxyTarifasSoap">
+    <wsdl:operation name="TarifarPMX">
+      <wsdl:input message="tns:TarifarPMXSoapIn" />
+      <wsdl:output message="tns:TarifarPMXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TarifarART">
+      <wsdl:input message="tns:TarifarARTSoapIn" />
+      <wsdl:output message="tns:TarifarARTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarProvincias">
+      <wsdl:input message="tns:RecuperarProvinciasSoapIn" />
+      <wsdl:output message="tns:RecuperarProvinciasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarModulos">
+      <wsdl:input message="tns:RecuperarModulosSoapIn" />
+      <wsdl:output message="tns:RecuperarModulosSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProxyTarifasSoap" type="tns:ProxyTarifasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TarifarPMX">
+      <soap:operation soapAction="http://tempuri.org/TarifarPMX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TarifarART">
+      <soap:operation soapAction="http://tempuri.org/TarifarART" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarProvincias">
+      <soap:operation soapAction="http://tempuri.org/RecuperarProvincias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarModulos">
+      <soap:operation soapAction="http://tempuri.org/RecuperarModulos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProxyTarifasSoap12" type="tns:ProxyTarifasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TarifarPMX">
+      <soap12:operation soapAction="http://tempuri.org/TarifarPMX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TarifarART">
+      <soap12:operation soapAction="http://tempuri.org/TarifarART" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarProvincias">
+      <soap12:operation soapAction="http://tempuri.org/RecuperarProvincias" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecuperarModulos">
+      <soap12:operation soapAction="http://tempuri.org/RecuperarModulos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProxyTarifas">
+    <wsdl:port name="ProxyTarifasSoap" binding="tns:ProxyTarifasSoap">
+      <soap:address location="https://200.41.127.77:444/ConsulGroupTarifas/ProxyTarifasCG.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProxyTarifasSoap12" binding="tns:ProxyTarifasSoap12">
+      <soap12:address location="https://200.41.127.77:444/ConsulGroupTarifas/ProxyTarifasCG.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
